@@ -8,10 +8,10 @@ li {
   font-family: Georgia
 }
 #first {
-  border: solid
-  background-color: lightRed
-  border-radius: 10px
+  border: solid;
+  background-color: lightRed;
+  border-radius: 10px;
 }
 img {
-  border-radius: 50px
+  border-radius: 75px
 }
