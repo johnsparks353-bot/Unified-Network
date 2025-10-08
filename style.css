@@ -1,5 +1,5 @@
 p {
-  color: blue
+  color: navy;
 }
 h2 {
   font-family: Courier New;
@@ -15,5 +15,5 @@ li {
   padding: 50px;
 }
 img {
-  border-radius: 100px
+  border-radius: 100px;
 }
