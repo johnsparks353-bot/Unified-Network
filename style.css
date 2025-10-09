@@ -12,9 +12,11 @@ li {
   font-family: Georgia
 }
 #first {
-  border: 50px solid black;
+  border: 10px solid black;
   background-color: Red;
   border-right: 73px solid black;
+  height: 200px;
+  width:200px
 }
 img {
   border-radius: 100px;
