@@ -14,7 +14,7 @@ li {
 #first {
   border: solid;
   background-color: Red;
-  border-right: 10px;
+  border-right: 200px;
 }
 img {
   border-radius: 100px;
