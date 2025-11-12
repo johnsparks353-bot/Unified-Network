@@ -9,11 +9,12 @@ h2 {
   font-size:75px;
 }
 ul {
-  grid-template-columns: 30px;
   font-family: Georgia;
   border: solid
 }
-#first {}
+#first {
+  grid-template-columns: 30px;
+}
 img {
   border-radius: 100px;
 }
