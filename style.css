@@ -13,6 +13,7 @@ ul {
   border: solid
 }
 #first {
+  display: grid;
   grid-template-columns: 30px;
 }
 img {
