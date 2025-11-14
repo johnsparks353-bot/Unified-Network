@@ -18,7 +18,7 @@ ul {
 }
 #first {
   display: grid;
-  grid-template-columns: 225px 225px;
+  grid-template-columns: 1fr 1fr;
 }
 img {
   border-radius: 100px;
