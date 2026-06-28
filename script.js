@@ -12,7 +12,7 @@ let dashboard = document.getelementbyClass("dashboard")
 
 sites.ForEach( site => { const card = document.createElement("div");
                         card.classlist.add("window");
-                        card.innerHTML(`<h3> ${sites.name}</h3>
+                        card.innerHTML(`<h3> ${sites.name}</h3>)
                         <img class="preview" alt="${site.name} preview">})
                         
                         
