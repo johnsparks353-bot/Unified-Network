@@ -8,7 +8,7 @@ test.innerHTML="is this anything?"
 const sites = [
   {name: "CNN", url: "https://www.cnn.com/world"}]
 
-let dashboard = document.getelementbyClassName("dashboard")
+let dashboard = document.getElementByClassName("dashboard")
 
 sites.forEach( site => { const card = document.createElement("div");
                         card.classList.add("window");
