@@ -15,7 +15,7 @@ sites.forEach( site => { const card = document.createElement("div");
                         card.innerHTML=`<h3> ${site.name}</h3>
                         <img class="preview" alt="${site.name} preview">
                         <a href="${site.url}" target="_blank">Open</a>`;
-                       dashboard.appendChild(card)})
+                       dashboard.appendChild(card);})
                         
                         
 document.body.innerHTML += "<p style='color: lime; font-size: 24px;'>JS is linked!</p>";
