@@ -8,12 +8,13 @@ test.innerHTML="is this anything?"
 const sites = [
   {name: "CNN", url: "https://www.cnn.com/world"}]
 
-let dashboard = document.getelementbyClass("dashboard")
+let dashboard = document.getelementbyClassName("dashboard")
 
-sites.ForEach( site => { const card = document.createElement("div");
-                        card.classlist.add("window");
-                        card.innerHTML(`<h3> ${sites.name}</h3>
+sites.forEach( site => { const card = document.createElement("div");
+                        card.classList.add("window");
+                        card.innerHTML=`<h3> ${site.name}</h3>
                         <img class="preview" alt="${site.name} preview">
-                        <a href="${site.url}" target="_blank">Open</a>`})
+                        <a href="${site.url}" target="_blank">Open</a>`;
+                       dashboard.appendChild(card)})
                         
                         
