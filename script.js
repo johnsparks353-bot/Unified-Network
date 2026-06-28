@@ -18,3 +18,4 @@ sites.forEach( site => { const card = document.createElement("div");
                        dashboard.appendChild(card)})
                         
                         
+document.body.innerHTML += "<p style='color: lime; font-size: 24px;'>JS is linked!</p>";
