@@ -6,7 +6,9 @@ dude.innerHTML="is this anything?"
 
 
 const sites = [
-  {name: "CNN", url: "https://www.cnn.com/world"}]
+  {name: "CNN", url: "https://www.cnn.com/world"},
+  {name: "NPR", url: "https://www.npr.org/"}
+]
 
 let dashboard = document.getElementById("dashboard")
 
