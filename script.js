@@ -19,3 +19,8 @@ sites.forEach( site => { const card = document.createElement("div");
                         
                         
 document.body.innerHTML += "<p style='color: lime; font-size: 24px;'>JS is linked!</p>";
+
+
+const img = card.querySelector(".preview");
+
+img.src = `https://YOUR_API/screenshot?url=${encodeURIComponent(site.url)}&key=YOUR_KEY`;
