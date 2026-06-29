@@ -15,6 +15,7 @@ sites.forEach( site => { const card = document.createElement("div");
                         card.innerHTML=`<h3> ${site.name}</h3>
                         <img class="preview" alt="${site.name} preview">
                         <a href="${site.url}" target="_blank">Open</a>`;
+                        const img = card.querySelector(".preview");
                         img.src = `https://screenshotmachine.com/screenshot?url=${encodeURIComponent(site.url)}&key=9863f3`;
                        dashboard.appendChild(card);})
                         
