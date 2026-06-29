@@ -7,7 +7,8 @@ dude.innerHTML="is this anything?"
 
 const sites = [
   {name: "CNN", url: "https://www.cnn.com/world"},
-  {name: "NPR", url: "https://www.npr.org/"}
+  {name: "NPR", url: "https://www.npr.org/"},
+  {name: "public domain horror", url: "https://www.horrortheque.com/"}
 ]
 
 let dashboard = document.getElementById("dashboard")
